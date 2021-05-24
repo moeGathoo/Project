@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">DiseaseTracker</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="Hint_Email">johndoe@gmail.com</string>
+    <string name="Hint_Password">123456Seven</string>
+    <string name="next">Next</string>
+    <string name="name">John</string>
+    <string name="surname">Doe</string>
+    <string name="gender">Male</string>
+    <string name="dob">22/06/2020</string>
+    <string name="age">20</string>
+    <string name="address1">12 Rhoades Avenue</string>
+    <string name="address2">Florida</string>
+    <string-array name="Areas">
+        <item>East London</item>
+        <item>Cape Town</item>
+        <item>Moorreesburg</item>
+        <item>Barkley East</item>
+        <item>Mthatha</item>
+        <item>Worcester</item>
+        <item>Port Shepstone</item>
+        <item>Pietermaritzburg</item>
+        <item>Ulundi</item>
+        <item>Richards</item>
+        <item>Bredasdorp</item>
+        <item>Ermelo</item>
+        <item>Middleburg</item>
+        <item>Nelspruit</item>
+        <item>Giyani</item>
+        <item>Thohoyando</item>
+        <item>Polokwane</item>
+        <item>Modiomolle</item>
+        <item>Rustenburg</item>
+        <item>Mahikeng</item>
+        <item>Vryburg</item>
+        <item>George</item>
+        <item>Klerksdorp</item>
+        <item>Vereeniging</item>
+        <item>Mount Ayliff</item>
+        <item>Kuruman</item>
+        <item>Groblersdal</item>
+        <item>Randfontein</item>
+        <item>Springbok</item>
+        <item>De Aar</item>
+        <item>Upington</item>
+        <item>Kimberley</item>
+        <item>Germiston</item>
+        <item>Durban</item>
+        <item>Johannesburg</item>
+        <item>Port Elizabeth</item>
+        <item>Pretoria</item>
+    </string-array>
+</resources>

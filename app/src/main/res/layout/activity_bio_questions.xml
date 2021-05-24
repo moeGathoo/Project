@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    tools:context=".BioQuestions">
+
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/abc_vector_test"
+        android:scaleType="fitXY"
+        android:src="@drawable/account_box_24px"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Address Line 1"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtAddress1"
+                android:hint="@string/address1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Address Line 2"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtAddress2"
+                android:hint="@string/address2"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Height (m)"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:gravity="start"/>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtHeight"
+                    android:hint="1.80"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Weight (kg)"
+                    android:textSize="20sp"
+                    android:layout_weight="1"
+                    android:gravity="start"/>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/edtWeight"
+                    android:hint="75"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Conditions"
+                android:textSize="20sp"/>
+
+            <CheckBox android:id="@+id/cbxAsthma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Asthma"/>
+            <CheckBox android:id="@+id/cbxKidney"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chronic Kidney Disease"/>
+
+            <CheckBox android:id="@+id/cbxDiabetes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Diabetes (Type 1 or 2)"/>
+            <CheckBox android:id="@+id/cbxHemoglobin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hemoglobin Disorders"/>
+
+            <CheckBox android:id="@+id/cbxImmune"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Immonucompromised"/>
+            <CheckBox android:id="@+id/cbxLiver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Liver Disease"/>
+
+            <CheckBox android:id="@+id/cbxHeart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Heart conditions/diseases"/>
+            <CheckBox android:id="@+id/cbxLung"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chronic lung disease"/>
+            <CheckBox android:id="@+id/cbxOther"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Other"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtConditions"
+                android:hint="type 'none' for no conditions"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnNext"
+                android:text="@string/next"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="32dp"
+                android:layout_gravity="center"/>
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>
